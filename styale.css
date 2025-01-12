@@ -1,0 +1,3626 @@
+*{
+    margin:0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(190, 189, 189);
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    
+}
+.navlogo{
+    height: 50px;
+    width: 80px;
+    align-self: center;
+}
+
+.logo{
+    background-image: url("amazon image.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+}
+
+.location{
+    height: 50px;
+    width: 100px;
+    align-self: center;
+}
+.dire{
+    height: 18px;
+    width: 16px;
+    margin-top: 25px;
+    margin-left: 7px;
+}
+.direction{
+    height: 18px;
+    width: 15px;
+}
+
+.deleiver{
+    position: relative;
+    bottom: 30px;
+    left: 24px;
+    color: #cccccc;
+    font-size: 12px;
+}
+
+.pakistan{
+    position: relative;
+    bottom: 30px;
+    left: 24px;
+    font-size: 14px;
+}
+.border{
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.border:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.serach{
+    height: 60px;
+    width: 665px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all{
+    height: 60%;
+    width: 50px;
+    background-color: #e6e6e6;
+    color: #545757;
+    font-size: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.searchbar{
+    height: 50%;
+    width: 75%;
+    font-size: 14px;
+}
+
+.serachlogo{
+    background-color: rgb(199, 159, 48);
+    padding: 9px 10px 8.5px 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.flaglogo{
+    height: 15px;
+    width: 19px;
+    background-color: white;
+    background-image: url("flag.png");
+    background-size: cover;
+    position: relative;
+    top: 19px;
+    left: 14px
+}
+
+.flag{
+    height: 50px;
+    width: 84px;
+    margin-top: 4.5px  ;
+    margin-left: 4px;
+}
+
+.language{
+    color: white;
+    background-color: #0f1111;
+    border: none;
+    position: relative;
+    left: 33px;
+    top:5px; 
+}
+
+.hello{
+height: 50px;
+width: 131.53px;
+margin-top: 4px;
+margin-left: 15px;;
+}
+
+.sign{
+    font-size: 12px;
+    color: #cccccc;
+    position: relative;
+    top:10px;
+    left: 5px;
+}
+
+.account{
+    background-color: #0f1111;
+    border: none;
+    color: white;
+    font-size: 15.5px;
+    position: relative;
+    top: 10px;
+}
+
+.ord{
+    height: 50px;
+width: 88px;
+margin-top: 4px;
+margin-left: 15px;
+
+}
+.returns{
+    font-size: 12px;
+    color: #cccccc;
+    position: relative;
+    left: 5px;
+    top: 9px;
+}
+
+.order{
+    background-color: #0f1111;
+    border: none;
+    color: white;
+    font-size: 15.5px;
+    position: relative;
+    top: 9px;
+}
+
+.cart{
+    height: 50px;
+    width: 84px;
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+.cartlogo{
+ position: relative;
+ top: 22px;
+ left: 13.5px;
+}
+
+.cr{
+    font-weight: bolder;
+    position: relative;
+    left: 37px;
+    top: 6.5px;
+}
+
+
+
+
+.navbar2{
+    height: 39px;
+    background-color: #0f1111;
+    opacity: 0.7;
+    display: flex;
+    color: white;
+}
+.menu{
+    height: 39px;
+    width: 60px;
+}
+.menulogo{
+    position: relative;
+    left:10px;
+    top:15px;
+    font-weight: bolder;
+}
+
+.menutext{
+    position: relative;
+    left: 29px;
+    bottom: 2.5px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.deal{
+    height: 39px;
+    width: 102px;
+    margin-left: 15px;
+}
+
+.dealtxt{
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+}
+
+.img{
+    height: 600px;
+    width: 1343px;
+    background-image: url("https://m.media-amazon.com/images/I/7130x7c9NmL._SX3000_.jpg");
+    background-size: cover;
+    
+}
+
+.row1{
+ display: flex;
+}
+
+.div1{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 355px;
+    left: 50px;
+}
+
+.txt1{
+    color: black;
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: relative;
+    top:20px;
+    left:19px;
+}
+
+.img1{
+    height: 100px;
+    width: 150px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg");
+    background-size: cover;
+    position: relative;
+    top:39px;
+    right: 0px;
+}
+
+.txt2{
+    color: black;
+    opacity: 0.7;
+    font-size: 12px;
+    position: relative;
+    top: 70px;
+    left: 30px;
+}
+
+.img2{
+    height: 100px;
+    width: 150px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg");
+    background-size: cover;
+    position: relative;
+    left: 190px;
+    bottom: 70px;
+    border: none;
+}
+
+.txt3{
+color: black;
+opacity: 0.7;
+font-size: 12px;
+position: relative;
+left: 190px;
+bottom: 45px;
+}
+
+.img3{
+    height: 100px;
+    width: 150px;
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg");
+background-size: cover;
+position: relative;
+top: 10px;
+}
+
+.txt4{
+    color: black;
+    opacity: 0.7;
+    font-size: 12px;
+    position: relative;
+    top: 30px;
+    left: 25px;
+
+}
+
+.img4{
+    height: 100px;
+    width: 150px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg");
+    background-size: cover;
+     position: relative;
+     left: 190px;
+     bottom: 100px;
+}
+
+.txt5{
+    color: black;
+    opacity: 0.7;
+    font-size: 12px;
+    position: relative;
+    left: 200px;
+    bottom: 80px;
+}
+
+.div2{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 355px;
+    left: 80px;
+}
+
+.div3{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 355px;
+    left: 100px;
+}
+
+.row2{
+    display: flex;
+}
+
+.div4{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 340px;
+    left: 50px;
+}
+
+.div5{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 340px;
+    left: 80px;
+}
+
+.div6{
+    height: 500px;
+    width: 400px;
+    background-color:rgb(255, 255, 255);
+    position: relative;
+    bottom: 340px;
+    left: 100px;
+}
+
+.end{
+    height: 300px;
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+}
+
+.under{
+    height: 110px;
+    border-top: 1px solid rgb(209, 208, 208);
+    border-bottom: 1px solid rgb(209, 208, 208);
+    position:relative;
+    top: 90px;
+}
+
+.txt6{
+    font-size: 19px;
+    font-weight: bolder;
+    position: relative;
+    left: 490px;
+    top: 25px;
+
+}
+
+.btn{
+    width: 130px;
+    height: 30px;
+    border: transparent;
+    border-radius: 20px;
+    background-color: rgb(252, 252, 24);
+   position: relative;
+   left: 580px;
+   top:30px;
+}
+
+.txt7{
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: relative;
+    left: 570px;
+    top:36px;
+}
+
+.back{
+    height: 50px;
+    background-color: #31435a;
+    color: white;
+    position: relative;
+    
+}
+
+.to{
+    position: relative;
+    left: 600px;
+    top: 20px;
+}
+
+.last{
+    height: 994px;
+    background-color: #1d2530;
+}
+
+.firstlast{
+    height: 497px;
+    background-color: #232f3e;
+    display: flex;
+}
+
+.firsttxt{
+    color: #dddddd;
+    font-size: 14px;
+    line-height: 1.8;
+    position: relative;
+    top: 40px;
+    left: 70px;
+}
+
+.get{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.secondtxt{
+    color: #dddddd;
+    line-height: 2.4;
+    font-size: 14px;
+    position: relative;
+    top:40px;
+    left: 270px;
+}
+
+.thirdtxt{
+    color: #dddddd;
+    line-height: 1.8;
+    font-size: 14px;
+    position: relative;
+    top:40px;
+    left: 470px;
+}
+
+.fourthtxt{
+    color: #dddddd;
+    line-height: 1.8;
+    font-size: 14px;
+    position: relative;
+    top:40px;
+    left: 650px;
+}
+
+.ama{
+   height: 142px;
+    border-top: 1px solid rgb(180, 178, 178);
+    position: relative;
+    bottom: 145px;
+}
+
+.oy{
+    position: relative;
+    top: 60px;
+    left:490px;
+}
+
+.btn1{
+    background-color: transparent;
+    border: 1.5px solid #cccccc;
+    color: white;
+    padding: 9px;
+    padding-left: 19px;
+    padding-right: 19px;
+    position: relative;
+    bottom: 150px;
+    left: 60px;
+}
+
+.btn2{
+    background-color: transparent;
+    border: 1.5px solid #cccccc;
+    color: white;
+    padding: 9px;
+    padding-left: 19px;
+    padding-right: 19px;
+    position: relative;
+    bottom: 150px;
+    left: 60px;
+}
+
+.btn3{
+    background-color: transparent;
+    border: 1.5px solid #cccccc;
+    color: white;
+    padding: 9px;
+    padding-left: 19px;
+    padding-right: 19px;
+    position: relative;
+    bottom: 150px;
+    left: 60px;
+}
+
+.zon{
+    height: 130px;
+    background-image: url("amazon image.png");
+    background-repeat: no-repeat;
+    position: relative;
+    right: 200px;
+    bottom: 100px;
+
+}
+
+.rows1{
+    display: flex;
+}
+
+.one{
+    height: 20px;
+    width: 10px;
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+}
+
+.two{
+    font-size: 12px;
+    color: #dddddd;
+    font-weight: bold;
+}
+
+.three{
+    font-size: 12px;
+    color: #999999;
+    
+}
+
+.twos{
+    height: 20px;
+    width: 10px;
+    position: relative;
+    bottom: 100px;
+    left: 190px;
+}
+
+.threes{
+    height: 20px;
+    width: 10px;
+    position: relative;
+    bottom: 100px;
+    left: 350px;
+}
+
+.four{
+    height: 20px;
+    width: 10px;
+    position: relative;
+    bottom: 100px;
+    left: 550px;
+}
+
+.five{
+    height: 20px;
+    width: 10px;
+    position: relative;
+    bottom: 100px;
+    left: 750px;
+}
+
+.six{
+    height: 20px;
+    width: 10px;
+    position: relative;
+    bottom: 100px;
+    left: 950px;
+}
+
+.seaven{
+    height: 20px;
+    width: 10px;
+    position: relative;
+    bottom: 100px;
+    left: 1150px;
+}
+
+.rows2{
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+.rows3{
+    display: flex;
+    position: relative;
+    top: 210px;
+}
+
+.con1{
+    font-size: 12px;
+    color: #dddddd;
+    font-weight: bold;
+    position: relative;
+    top: 220px;
+    left: 390px;
+}
+
+.con2{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 230px;
+    left: 540px;
+}
+
+
+/* Media Queries */
+
+@media(min-width: 768px) and (max-width: 1024px){
+
+    navbar{
+        height: 60px;
+        background-color: #0f1111;
+        color: white;
+        display: flex;
+        
+    }
+
+    .navlogo{
+        height: 40px;
+        width: 70px;
+        align-self: center;
+    }
+    
+    .logo{
+        background-image: url("amazon image.png");
+        background-size: cover;
+        height: 30px;
+        width: 100%;
+    
+    }
+    
+    .location{
+        height: 40px;
+        width: 70px;
+        align-self: center;
+    }
+    .dire{
+        height: 14px;
+        width: 12px;
+        margin-top: 19px;
+        margin-left: 2px;
+        position: relative;
+        bottom: 6px;
+    }
+    .direction{
+        height: 10px;
+        width: 7px;
+       
+    }
+    
+    .deleiver{
+        position: relative;
+        bottom: 22px;
+        left: 17px;
+        color: #cccccc;
+        font-size: 7px;
+    }
+    
+    .pakistan{
+        position: relative;
+        bottom: 22px;
+        left: 17px;
+        font-size: 9px;
+    }
+    .border{
+        border: 1px solid transparent;
+        border-radius: 5px;
+    }
+    
+    .border:hover{
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    
+    .serach{
+        height: 45px;
+        width: 655px;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+        top:8px;
+        right: 10px;
+    }
+    
+    .all{
+        height: 50%;
+        width: 40px;
+        background-color: #e6e6e6;
+        color: #545757;
+        font-size: 8px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    
+    .searchbar{
+        height: 39%;
+        width: 70%;
+        font-size: 12px;
+    }
+    
+    .serachlogo{
+        background-color: rgb(199, 159, 48);
+        padding: 7px 9px 7px 11px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        height: 10px;
+    }
+    
+    .flaglogo{
+        height: 15px;
+        width: 19px;
+        background-color: white;
+        background-image: url("flag.png");
+        background-size: cover;
+        position: relative;
+        top: 19px;
+        left: 7px
+    }
+    
+    .flag{
+        height: 50px;
+        width: 84px;
+        margin-top: 4.5px  ;
+        margin-left: 2px;
+        position: relative;
+        right: 29px;
+    }
+    
+    .language{
+        color: white;
+        background-color: #0f1111;
+        border: none;
+        position: relative;
+        left: 28px;
+        top:2px; 
+        font-size: 10px;
+    }
+    
+    .hello{
+    height: 50px;
+    width: 131.53px;
+    margin-top: 4px;
+    margin-left: 15px;
+    position: relative;
+    right: 37px;
+    }
+    
+    .sign{
+        font-size: 12px;
+        color: #cccccc;
+        position: relative;
+        top:10px;
+        left: 5px;
+    }
+    
+    .account{
+        background-color: #0f1111;
+        border: none;
+        color: white;
+        font-size: 15.5px;
+        position: relative;
+        top: 10px;
+    }
+    
+    .ord{
+        height: 50px;
+    width: 88px;
+    margin-top: 4px;
+    margin-left: 15px;
+    position: relative;
+    right: 30px;
+    
+    }
+    .returns{
+        font-size: 12px;
+        color: #cccccc;
+        position: relative;
+        left: 5px;
+        top: 9px;
+    }
+    
+    .order{
+        background-color: #0f1111;
+        border: none;
+        color: white;
+        font-size: 15.5px;
+        position: relative;
+        top: 9px;
+    }
+    
+    .cart{
+        height: 50px;
+        width: 84px;
+        margin-top: 4px;
+        margin-left: 15px;
+        position: relative;
+        right: 33px;
+    }
+    
+    .cartlogo{
+     position: relative;
+     top: 22px;
+     left: 13.5px;
+    }
+    
+    .cr{
+        font-weight: bolder;
+        position: relative;
+        left: 37px;
+        top: 6.5px;
+    }
+    
+
+    .img{
+        height: 550px;
+        width: 1024px;
+        background-image: url("https://m.media-amazon.com/images/I/7130x7c9NmL._SX3000_.jpg");
+        background-size: cover;
+        
+    }
+
+    /* Row 1 */
+    .row1{
+        display: flex;
+       }
+       
+       .div1{
+           height: 400px;
+           width: 300px;
+           background-color: rgb(255, 255, 255);
+           position: relative;
+           bottom: 325px;
+           left: 40px;
+       }
+       
+       .txt1{
+           color: black;
+           font-weight:bold;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           font-size: 15px;
+           position: relative;
+           top:20px;
+           left:19px;
+       }
+       
+       .img1{
+           height: 60px;
+           width: 100px;
+           background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg");
+           background-size: cover;
+           position: relative;
+           top:47px;
+           right: 0px;
+       }
+       
+       .txt2{
+           color: black;
+           opacity: 0.7;
+           font-size: 12px;
+           position: relative;
+           top: 60px;
+           left: 30px;
+       }
+       
+       .img2{
+           height: 60px;
+           width: 100px;
+           background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg");
+           background-size: cover;
+           position: relative;
+           left: 160px;
+           bottom: 30px;
+           border: none;
+       }
+       
+       .txt3{
+       color: black;
+       opacity: 0.7;
+       font-size: 12px;
+       position: relative;
+       left: 180px;
+       bottom: 20px;
+       }
+       
+       .img3{
+           height: 60px;
+           width: 100px;
+       background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg");
+       background-size: cover;
+       position: relative;
+       top: 19px;
+       }
+       
+       .txt4{
+           color: black;
+           opacity: 0.7;
+           font-size: 12px;
+           position: relative;
+           top: 25px;
+           left: 25px;
+       
+       }
+       
+       .img4{
+           height: 60px;
+           width: 100px;
+           background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg");
+           background-size: cover;
+            position: relative;
+            left: 160px;
+            bottom: 55px;
+       }
+       
+       .txt5{
+           color: black;
+           opacity: 0.7;
+           font-size: 12px;
+           position: relative;
+           left: 200px;
+           bottom: 50px;
+       }
+       
+       .div2{
+           height: 400px;
+           width: 300px;
+           background-color: rgb(255, 255, 255);
+           position: relative;
+           bottom: 325px;
+           left: 65px;
+       }
+       
+       .div3{
+           height: 400px;
+           width: 300px;
+           background-color: rgb(255, 255, 255);
+           position: relative;
+           bottom: 325px;
+           left: 90px;
+       }
+       
+       .imgs1{
+        height: 60px;
+           width: 100px;
+           position: relative;
+           top:0px;
+           left:20px;
+       }
+       
+       .imgs2{
+        height: 60px;
+           width: 100px;
+           position: relative;
+           bottom: 5px;
+       }
+
+       .imgs3{
+        height: 60px;
+        width: 100px;
+        position: relative;
+        left: 20px;
+       }
+
+       .imgs4{
+        height: 60px;
+        width: 100px;
+        position: relative;
+        bottom: 3.5px;
+       }
+
+       .imgs5{
+        height: 60px;
+           width: 100px;
+           position: relative;
+           top:0px;
+           left:20px;
+       }
+
+       .imgs6{
+        height: 60px;
+           width: 100px;
+           position: relative;
+           bottom: 5px;
+       }
+
+       .imgs7{
+        height: 60px;
+        width: 100px;
+        position: relative;
+        left: 20px;
+       }
+
+       .imgs8{
+        height: 60px;
+        width: 100px;
+        position: relative;
+        bottom: 3.5px;
+       }
+
+       .div4{
+        height: 400px;
+        width: 300px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        bottom: 290px;
+        left: 40px;
+    }
+
+    .imgs9{
+        height: 60px;
+        width: 100px;
+        position: relative;
+        top:0px;
+        left:20px;
+    }
+
+    .imgs10{
+        height: 60px;
+        width: 100px;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .imgs11{
+        height: 60px;
+        width: 100px;
+        position: relative;
+        left: 20px;
+    }
+
+    .imgs12{
+        height: 60px;
+        width: 100px;
+        position: relative;
+        bottom: 3.5px;
+    }
+    
+    .div5{
+        height: 400px;
+        width: 300px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        bottom: 290px;
+        left: 65px;
+    }
+    
+    .imgs13{
+        height: 60px;
+        width: 100px;
+        position: relative;
+        top:0px;
+        left:20px;
+    }
+
+    .imgs14{
+        height: 60px;
+        width: 100px;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .imgs15{
+        height: 60px;
+        width: 100px;
+        position: relative;
+        left: 20px;
+    }
+
+    .imgs16{
+        height: 60px;
+        width: 100px;
+        position: relative;
+        bottom: 3.5px;
+    }
+
+    .div6{
+        height: 400px;
+        width: 300px;
+        background-color:rgb(255, 255, 255);
+        position: relative;
+        bottom: 290px;
+        left: 90px;
+    }
+
+
+    /* middle */
+    .txt6{
+        font-size: 19px;
+        font-weight: bolder;
+        position: relative;
+        left: 320px;
+        top: 25px;
+    
+    }
+    
+    .btn{
+        width: 130px;
+        height: 30px;
+        border: transparent;
+        border-radius: 20px;
+        background-color: rgb(252, 252, 24);
+       position: relative;
+       left: 420px;
+       top:30px;
+    }
+    
+    .txt7{
+        font-size: 12px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        position: relative;
+        left: 400px;
+        top:36px;
+    }
+
+
+
+    .to{
+        position: relative;
+        left: 490px;
+        top: 20px;
+    }
+
+
+    .firsttxt{
+        color: #dddddd;
+        font-size: 12px;
+        line-height: 1.8;
+        position: relative;
+        top: 40px;
+        left: 70px;
+    }
+    
+    .get{
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    
+    .secondtxt{
+        color: #dddddd;
+        line-height: 2.4;
+        font-size: 14px;
+        position: relative;
+        top:40px;
+        left: 160px;
+    }
+    
+    .thirdtxt{
+        color: #dddddd;
+        line-height: 1.8;
+        font-size: 14px;
+        position: relative;
+        top:40px;
+        left: 270px;
+    }
+    
+    .fourthtxt{
+        color: #dddddd;
+        line-height: 1.8;
+        font-size: 14px;
+        position: relative;
+        top:40px;
+        left: 400px;
+    }
+
+    .btn1{
+        background-color: transparent;
+        border: 1.5px solid #cccccc;
+        color: white;
+        padding: 9px;
+        padding-left: 19px;
+        padding-right: 19px;
+        position: relative;
+        bottom: 130px;
+        left: -40px;
+    }
+    
+    .btn2{
+        background-color: transparent;
+        border: 1.5px solid #cccccc;
+        color: white;
+        padding: 9px;
+        padding-left: 19px;
+        padding-right: 19px;
+        position: relative;
+        bottom: 130px;
+        left: -40px;
+    }
+    
+    .btn3{
+        background-color: transparent;
+        border: 1.5px solid #cccccc;
+        color: white;
+        padding: 9px;
+        padding-left: 19px;
+        padding-right: 19px;
+        position: relative;
+        bottom: 130px;
+        left: -40px;
+    }
+    
+    .zon{
+        height: 130px;
+        background-image: url("amazon image.png");
+        background-repeat: no-repeat;
+        position: relative;
+        right: 300px;
+        bottom: 80px;
+    
+    }
+
+    .one{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 50px;
+    }
+    
+    .two{
+        font-size: 10px;
+        color: #dddddd;
+        font-weight: bold;
+    }
+    
+    .three{
+        font-size: 10px;
+        color: #999999;
+        
+    }
+    
+    .twos{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 160px;
+    }
+    
+    .threes{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 290px;
+    }
+    
+    .four{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 430px;
+    }
+    
+    .five{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 580px;
+    }
+    
+    .six{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 720px;
+    }
+    
+    .seaven{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 850px;
+    }
+    
+    
+    .con1{
+        font-size: 12px;
+        color: #dddddd;
+        font-weight: bold;
+        position: relative;
+        top: 220px;
+        left: 230px;
+    }
+    
+    .con2{
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        position: relative;
+        top: 230px;
+        left: 370px;
+    }
+
+    }
+
+    /* Media for Tablet */
+
+
+@media(min-width: 425px) and (max-width: 768px){
+
+    .navbar{
+        height: 50px;
+        background-color: #0f1111;
+        color: white;
+        display: flex;
+        
+    }
+    .navlogo{
+        height: 20px;
+        width: 60px;
+        align-self: center;
+        position: relative;
+        bottom: 5px;
+    }
+    
+    .logo{
+        background-image: url("amazon image.png");
+        background-size: cover;
+        height: 30px;
+        width: 100%;
+        position: relative;
+        right: 3px;
+        bottom: 2px;
+    
+    }
+    
+    .location{
+        height: 30px;
+        width: 80px;
+        align-self: center;
+        position: relative;
+        top:-1.9px;
+        right: 3px;
+    }
+    .dire{
+        height: 1px;
+        position: relative;
+        bottom: 9px;
+    }
+    .direction{
+        height: 3px;
+       
+    }
+    
+    .deleiver{
+        position: relative;
+        bottom: 10px;
+        left: 15px;
+        color: #cccccc;
+        font-size: 5px;
+    }
+    
+    .pakistan{
+        position: relative;
+        bottom: 10px;
+        left: 15px;
+        font-size: 7px;
+    }
+    .border{
+        border: 1px solid transparent;
+        border-radius: 5px;
+    }
+    
+    .border:hover{
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    
+    .serach{
+        height: 45px;
+        width: 440px;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+        top:4px;
+        right: 12px;
+    }
+    
+    .all{
+        height: 50%;
+        width: 30px;
+        background-color: #e6e6e6;
+        color: #545757;
+        font-size: 8px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    
+    .searchbar{
+        height: 39%;
+        width: 70%;
+        font-size: 12px;
+    }
+    
+    .serachlogo{
+        background-color: rgb(199, 159, 48);
+        padding: 3px 6px 15px 6px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        height: 5px;
+    }
+    
+    .flaglogo{
+        height: 12px;
+        width: 16px;
+        background-color: white;
+        background-image: url("flag.png");
+        background-size: cover;
+        position: relative;
+        top: 10px;
+        left: 7px
+    }
+    
+    .flag{
+        height: 30px;
+        width: 80px;
+        margin-top: 4.5px  ;
+        margin-left: 1px;
+        position: relative;
+        right: 15px;
+        bottom: -5px;
+    }
+    
+    .language{
+        color: white;
+        background-color: #0f1111;
+        border: none;
+        position: relative;
+        left: 24px;
+        top:-8px; 
+        font-size: 6px;
+    }
+    
+    .hello{
+    height: 30px;
+    width: 131.53px;
+    margin-top: 4px;
+    margin-left: 15px;
+    position: relative;
+    right: 20px;
+    top: 5px;
+    }
+    
+    .sign{
+        font-size: 7px;
+        color: #cccccc;
+        position: relative;
+        top:5px;
+        left: 5px;
+    }
+    
+    .account{
+        background-color: #0f1111;
+        border: none;
+        color: white;
+        font-size: 10.5px;
+        position: relative;
+        top: 5px;
+    }
+    
+    .ord{
+        height: 30px;
+    width: 88px;
+    margin-top: 4px;
+    margin-left: 15px;
+    position: relative;
+    right: 20px;
+    top:5px;
+    
+    }
+    .returns{
+        font-size: 7px;
+        color: #cccccc;
+        position: relative;
+        left: 5px;
+        top: 5px;
+    }
+    
+    .order{
+        background-color: #0f1111;
+        border: none;
+        color: white;
+        font-size: 10.5px;
+        position: relative;
+        top: 5px;
+    }
+    
+    .cart{
+        height: 30px;
+        width: 84px;
+        margin-top: 4px;
+        margin-left: 15px;
+        position: relative;
+        right: 15px;
+        top: 5px;
+    }
+    
+    .cartlogo{
+     position: relative;
+     top: 10px;
+     left: 5px;
+    }
+    
+    .cr{
+        font-size: 10.5px;
+        font-weight: bolder;
+        position: relative;
+        left: 27px;
+        top: -5.5px;
+    }
+    
+
+    .img{
+        height: 360px;
+        width: 768px;
+        background-image: url("https://m.media-amazon.com/images/I/7130x7c9NmL._SX3000_.jpg");
+        background-size: cover;
+        
+    }
+
+    /* Row 1 */
+    .row1{
+        display: flex;
+       }
+       
+       .div1{
+           height: 300px;
+           width: 200px;
+           background-color: rgb(255, 255, 255);
+           position: relative;
+           bottom: 215px;
+           left: 40px;
+       }
+       
+       .txt1{
+           color: black;
+           font-weight:bold;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           font-size: 12px;
+           position: relative;
+           top:20px;
+           left:19px;
+       }
+       
+       .img1{
+           height: 50px;
+           width: 80px;
+           background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg");
+           background-size: cover;
+           position: relative;
+           top:47px;
+           right: 0px;
+       }
+       
+       .txt2{
+           color: black;
+           opacity: 0.7;
+           font-size: 8px;
+           position: relative;
+           top: 60px;
+           left: 30px;
+       }
+       
+       .img2{
+           height: 50px;
+           width: 80px;
+           background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg");
+           background-size: cover;
+           position: relative;
+           left: 100px;
+           bottom: 10px;
+           border: none;
+       }
+       
+       .txt3{
+       color: black;
+       opacity: 0.7;
+       font-size: 8px;
+       position: relative;
+       left: 100px;
+       bottom: -1px;
+       }
+       
+       .img3{
+           height: 50px;
+           width: 80px;
+       background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg");
+       background-size: cover;
+       position: relative;
+       top: 19px;
+       }
+       
+       .txt4{
+           color: black;
+           opacity: 0.7;
+           font-size: 8px;
+           position: relative;
+           top: 25px;
+           left: 20px;
+       
+       }
+       
+       .img4{
+           height: 50px;
+           width: 80px;
+           background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg");
+           background-size: cover;
+            position: relative;
+            left: 100px;
+            bottom: 35px;
+       }
+       
+       .txt5{
+           color: black;
+           opacity: 0.7;
+           font-size: 8px;
+           position: relative;
+           left: 100px;
+           bottom: 35px;
+       }
+       
+       .div2{
+           height: 300px;
+           width: 200px;
+           background-color: rgb(255, 255, 255);
+           position: relative;
+           bottom: 215px;
+           left: 65px;
+       }
+       
+       .div3{
+           height: 300px;
+           width: 200px;
+           background-color: rgb(255, 255, 255);
+           position: relative;
+           bottom: 215px;
+           left: 90px;
+       }
+       
+       .imgs1{
+        height: 50px;
+           width: 70px;
+           position: relative;
+           top:0px;
+           left:16px;
+       }
+       
+       .imgs2{
+        height: 50px;
+           width: 70px;
+           position: relative;
+           bottom: 3px;
+       }
+
+       .imgs3{
+        height: 50px;
+        width: 70px;
+        position: relative;
+        left: 15.5px;
+       }
+
+       .imgs4{
+        height: 50px;
+        width: 70px;
+        position: relative;
+        bottom: 4.5px;
+       }
+
+       .imgs5{
+        height: 50px;
+           width: 70px;
+           position: relative;
+           top:0px;
+           left:16px;
+       }
+
+       .imgs6{
+        height: 50px;
+           width: 70px;
+           position: relative;
+           bottom: 3px;
+       }
+
+       .imgs7{
+        height: 50px;
+        width: 70px;
+        position: relative;
+        left: 15.5px;
+       }
+
+       .imgs8{
+        height: 50px;
+        width: 70px;
+        position: relative;
+        bottom: 4.5px;
+       }
+
+       .div4{
+        height: 300px;
+        width: 200px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        bottom: 200px;
+        left: 40px;
+    }
+
+    .imgs9{
+        height: 50px;
+        width: 70px;
+        position: relative;
+        top:0px;
+        left:16px;
+    }
+
+    .imgs10{
+        height: 50px;
+           width: 70px;
+           position: relative;
+           bottom: 3px;
+    }
+
+    .imgs11{
+        height: 50px;
+        width: 70px;
+        position: relative;
+        left: 15.5px;
+    }
+
+    .imgs12{
+        height: 50px;
+        width: 70px;
+        position: relative;
+        bottom: 4.5px;
+    }
+    
+    .div5{
+        height: 300px;
+        width: 200px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        bottom: 200px;
+        left: 65px;
+    }
+    
+    .imgs13{
+        height: 50px;
+        width: 70px;
+        position: relative;
+        top:0px;
+        left:16px;
+    }
+
+    .imgs14{
+        height: 50px;
+           width: 70px;
+           position: relative;
+           bottom: 3px;
+    }
+
+    .imgs15{
+        height: 50px;
+        width: 70px;
+        position: relative;
+        left: 15.5px;
+    }
+
+    .imgs16{
+        height: 50px;
+        width: 70px;
+        position: relative;
+        bottom: 4.5px;
+    }
+
+    .div6{
+        height: 300px;
+        width: 200px;
+        background-color:rgb(255, 255, 255);
+        position: relative;
+        bottom: 200px;
+        left: 90px;
+    }
+
+
+    /* middle */
+    .txt6{
+        font-size: 19px;
+        font-weight: bolder;
+        position: relative;
+        left: 230px;
+        top: 25px;
+    
+    }
+    
+    .btn{
+        width: 130px;
+        height: 30px;
+        border: transparent;
+        border-radius: 20px;
+        background-color: rgb(252, 252, 24);
+       position: relative;
+       left: 320px;
+       top:30px;
+    }
+    
+    .txt7{
+        font-size: 12px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        position: relative;
+        left: 300px;
+        top:36px;
+    }
+
+
+
+    .to{
+        position: relative;
+        left: 335px;
+        top: 20px;
+    }
+
+
+    .firsttxt{
+        color: #dddddd;
+        font-size: 10px;
+        line-height: 1.8;
+        position: relative;
+        top: 40px;
+        left: 40px;
+    }
+    
+    .get{
+        font-size: 12px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    
+    .secondtxt{
+        color: #dddddd;
+        line-height: 2.4;
+        font-size: 14px;
+        position: relative;
+        top:40px;
+        left: 90px;
+    }
+    
+    .thirdtxt{
+        color: #dddddd;
+        line-height: 1.8;
+        font-size: 14px;
+        position: relative;
+        top:40px;
+        left: 140px;
+    }
+    
+    .fourthtxt{
+        color: #dddddd;
+        line-height: 1.8;
+        font-size: 14px;
+        position: relative;
+        top:40px;
+        left: 180px;
+    }
+
+    .btn1{
+        background-color: transparent;
+        border: 1.5px solid #cccccc;
+        color: white;
+        padding: 9px;
+        padding-left: 19px;
+        padding-right: 19px;
+        position: relative;
+        bottom: 150px;
+        left: -150px;
+    }
+    
+    .btn2{
+        background-color: transparent;
+        border: 1.5px solid #cccccc;
+        color: white;
+        padding: 9px;
+        padding-left: 19px;
+        padding-right: 19px;
+        position: relative;
+        bottom: 150px;
+        left: -140px;
+    }
+    
+    .btn3{
+        background-color: transparent;
+        border: 1.5px solid #cccccc;
+        color: white;
+        padding: 9px;
+        padding-left: 19px;
+        padding-right: 19px;
+        position: relative;
+        bottom: 150px;
+        left: -130px;
+    }
+    
+    .zon{
+        height: 150px;
+        background-image: url("amazon image.png");
+        background-repeat: no-repeat;
+        position: relative;
+        right: 390px;
+        bottom: 80px;
+    
+    }
+
+    .one{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 30px;
+    }
+    
+    .two{
+        font-size: 7px;
+        color: #dddddd;
+        font-weight: bold;
+    }
+    
+    .three{
+        font-size: 8px;
+        color: #999999;
+        
+    }
+    
+    .twos{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 120px;
+    }
+    
+    .threes{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 220px;
+    }
+    
+    .four{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 320px;
+    }
+    
+    .five{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 430px;
+    }
+    
+    .six{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 530px;
+    }
+    
+    .seaven{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 640px;
+    }
+    
+    
+    .con1{
+        font-size: 10px;
+        color: #dddddd;
+        font-weight: bold;
+        position: relative;
+        top: 220px;
+        left: 170px;
+    }
+    
+    .con2{
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        position: relative;
+        top: 230px;
+        left: 290px;
+    }
+
+    }
+
+    /* Media query for large Mobile */
+
+@media(min-width: 375px) and (max-width: 425px){
+
+    .navbar{
+        height: 60px;
+        width: 975px;
+        background-color: #0f1111;
+        color: white;
+        display: flex;
+        
+    }
+
+    .navbar2{
+        height: 39px;
+        width: 975px;
+        background-color: #0f1111;
+        opacity: 0.7;
+        display: flex;
+        color: white;
+    }
+    .navlogo{
+        height: 30px;
+        width: 80px;
+        align-self: center;
+        position: relative;
+        bottom: 1px;
+    }
+    
+    .logo{
+        background-image: url("amazon image.png");
+        background-size: cover;
+        height: 40px;
+        width: 100%;
+        position: relative;
+        right: 3px;
+        bottom: 13px;
+    
+    }
+    
+    .location{
+        height: 30px;
+        width: 80px;
+        align-self: center;
+        position: relative;
+        bottom: 9px;
+        right: 3px;
+    }
+    .dire{
+        height: 1px;
+        position: relative;
+        bottom: 12px;
+    }
+    .direction{
+        height: 3px;
+       
+    }
+    
+    .deleiver{
+        position: relative;
+        bottom: 18px;
+        left: 21px;
+        color: #cccccc;
+        font-size: 9px;
+    }
+    
+    .pakistan{
+        position: relative;
+        bottom: 18px;
+        left: 21px;
+        font-size: 11px;
+    }
+    .border{
+        border: 1px solid transparent;
+        border-radius: 5px;
+    }
+    
+    .border:hover{
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    
+    .serach{
+        height: 45px;
+        width: 440px;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+        top:10px;
+        right: 12px;
+    }
+    
+    .all{
+        height: 50%;
+        width: 30px;
+        background-color: #e6e6e6;
+        color: #545757;
+        font-size: 8px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    
+    .searchbar{
+        height: 39%;
+        width: 70%;
+        font-size: 12px;
+    }
+    
+    .serachlogo{
+        background-color: rgb(199, 159, 48);
+        padding: 3px 6px 15px 6px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        height: 5px;
+    }
+    
+    .flaglogo{
+        height: 15px;
+        width: 19px;
+        background-color: white;
+        background-image: url("flag.png");
+        background-size: cover;
+        position: relative;
+        top: 8px;
+        left: 6px
+    }
+    
+    .flag{
+        height: 30px;
+        width: 80px;
+        margin-top: 4.5px  ;
+        margin-left: 1px;
+        position: relative;
+        right: 21px;
+        bottom: -10px;
+    }
+    
+    .language{
+        color: white;
+        background-color: #0f1111;
+        border: none;
+        position: relative;
+        left: 29px;
+        top:-10px; 
+        font-size: 9px;
+    }
+    
+    .hello{
+    height: 30px;
+    width: 131.53px;
+    margin-top: 4px;
+    margin-left: 15px;
+    position: relative;
+    right: 33px;
+    top: 10px;
+    }
+    
+    .sign{
+        font-size: 8px;
+        color: #cccccc;
+        position: relative;
+        top:5px;
+        left: 15px;
+    }
+    
+    .account{
+        background-color: #0f1111;
+        border: none;
+        color: white;
+        font-size: 11.5px;
+        position: relative;
+        top: 2px;
+        left: 10px;
+    }
+    
+    .ord{
+        height: 30px;
+    width: 88px;
+    margin-top: 4px;
+    margin-left: 15px;
+    position: relative;
+    right: 33px;
+    top:10px;
+    
+    }
+    .returns{
+        font-size: 8px;
+        color: #cccccc;
+        position: relative;
+        left: 15px;
+        top: 5px;
+    }
+    
+    .order{
+        background-color: #0f1111;
+        border: none;
+        color: white;
+        font-size: 11.5px;
+        position: relative;
+        top: 2px;
+        left:10px;
+    }
+    
+    .cart{
+        height: 30px;
+        width: 84px;
+        margin-top: 4px;
+        margin-left: 15px;
+        position: relative;
+        right: 33px;
+        top: 10px;
+    }
+    
+    .cartlogo{
+     position: relative;
+     top: 8px;
+     left: 8px;
+    }
+    
+    .cr{
+        font-size: 10.5px;
+        font-weight: bolder;
+        position: relative;
+        left: 29px;
+        top: -5.9px;
+    }
+    
+
+    .img{
+        height: 360px;
+        width: 975px;
+        background-image: url("https://m.media-amazon.com/images/I/7130x7c9NmL._SX3000_.jpg");
+        background-size: cover;
+        
+    }
+
+    /* Row 1 */
+    .row1{
+        width: 800px;
+        display: flex;
+        position: relative;
+        bottom: 10px;
+       }
+       
+       .div1{
+           height: 350px;
+           width: 2000px;
+           background-color: rgb(255, 255, 255);
+           position: relative;
+           bottom: 190px;
+           left: 70px;
+           margin: 0px 0px 0px 0px;
+       }
+       
+       .txt1{
+           color: black;
+           font-weight:bold;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           font-size: 16px;
+           position: relative;
+           top:20px;
+           left:19px;
+       }
+       
+       .img1{
+           height: 80px;
+           width: 110px;
+           background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg");
+           background-size: cover;
+           position: relative;
+           top:47px;
+           right: 0px;
+       }
+       
+       .txt2{
+           color: black;
+           opacity: 0.7;
+           font-size: 9px;
+           position: relative;
+           top: 60px;
+           left: 34px;
+       }
+       
+       .img2{
+           height: 70px;
+           width: 100px;
+           background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg");
+           background-size: cover;
+           position: relative;
+           left: 130px;
+           bottom: 35px;
+           border: none;
+       }
+       
+       .txt3{
+       color: black;
+       opacity: 0.7;
+       font-size: 9px;
+       position: relative;
+       left: 130px;
+       bottom: 20px;
+       }
+       
+       .img3{
+           height: 80px;
+           width: 100px;
+       background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg");
+       background-size: cover;
+       position: relative;
+       top: 29px;
+       }
+       
+       .txt4{
+           color: black;
+           opacity: 0.7;
+           font-size: 9px;
+           position: relative;
+           top: 35px;
+           left: 20px;
+       
+       }
+       
+       .img4{
+           height: 80px;
+           width: 100px;
+           background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg");
+           background-size: cover;
+            position: relative;
+            left: 130px;
+            bottom: 55px;
+       }
+       
+       .txt5{
+           color: black;
+           opacity: 0.7;
+           font-size: 9px;
+           position: relative;
+           left: 150px;
+           bottom: 55px;
+       }
+       
+       .div2{
+           height: 350px;
+           width: 2000px;
+           margin: 0px 0px 0px 0px;
+           background-color: rgb(255, 255, 255);
+           position: relative;
+           bottom: 190px;
+           left: 100px;
+       }
+       
+       .div3{
+           height: 350px;
+           width: 2000px;
+           margin: 0px 0px 0px 0px;
+           background-color: rgb(255, 255, 255);
+           position: relative;
+           bottom: 190px;
+           left: 130px;
+       }
+       
+       .imgs1{
+        height: 80px;
+           width: 100px;
+           position: relative;
+           top:0px;
+           left:16px;
+       }
+       
+       .imgs2{
+        height: 80px;
+           width: 100px;
+           position: relative;
+           bottom: 3px;
+       }
+
+       .imgs3{
+        height: 80px;
+        width: 100px;
+        position: relative;
+        left: 15.5px;
+       }
+
+       .imgs4{
+        height: 80px;
+        width: 100px;
+        position: relative;
+        bottom: 4.5px;
+       }
+
+       .imgs5{
+        height: 80px;
+           width: 100px;
+           position: relative;
+           top:0px;
+           left:16px;
+       }
+
+       .imgs6{
+        height: 80px;
+           width: 100px;
+           position: relative;
+           bottom: 3px;
+       }
+
+       .imgs7{
+        height: 80px;
+        width: 100px;
+        position: relative;
+        left: 15.5px;
+       }
+
+       .imgs8{
+        height: 80px;
+        width: 100px;
+        position: relative;
+        bottom: 4.5px;
+       }
+
+       .row2{
+        display: flex;
+        width: 800px;
+        display: flex;
+       
+    }
+       .div4{
+        height: 400px;
+        width: 500px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        bottom: 160px;
+        left: 70px;
+    }
+
+    .imgs9{
+        height: 80px;
+        width: 100px;
+        position: relative;
+        top:0px;
+        left:16px;
+    }
+
+    .imgs10{
+        height: 80px;
+           width: 100px;
+           position: relative;
+           bottom: 3px;
+    }
+
+    .imgs11{
+        height: 80px;
+        width: 100px;
+        position: relative;
+        left: 15.5px;
+    }
+
+    .imgs12{
+        height: 80px;
+        width: 100px;
+        position: relative;
+        bottom: 4.5px;
+    }
+    
+    .div5{
+        height: 400px;
+        width: 500px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        bottom: 160px;
+        left: 100px;
+    }
+    
+    .imgs13{
+        height: 80px;
+        width: 100px;
+        position: relative;
+        top:0px;
+        left:16px;
+    }
+
+    .imgs14{
+        height: 80px;
+           width: 100px;
+           position: relative;
+           bottom: 3px;
+    }
+
+    .imgs15{
+        height: 80px;
+        width: 100px;
+        position: relative;
+        left: 15.5px;
+    }
+
+    .imgs16{
+        height: 80px;
+        width: 100px;
+        position: relative;
+        bottom: 4.5px;
+    }
+
+    .div6{
+        height: 400px;
+        width: 500px;
+        background-color:rgb(255, 255, 255);
+        position: relative;
+        bottom: 160px;
+        left: 130px;
+    }
+
+
+    /* middle */
+
+    .end{
+        height: 300px;
+        width: 1000px;
+        background-color: white;
+        position: relative;
+        bottom: 100px;
+    }
+    
+    .under{
+        height: 110px;
+        border-top: 1px solid rgb(209, 208, 208);
+        border-bottom: 1px solid rgb(209, 208, 208);
+        position:relative;
+        top: 90px;
+    }
+    .txt6{
+        font-size: 19px;
+        font-weight: bolder;
+        position: relative;
+        left: 350px;
+        top: 25px;
+    
+    }
+    
+    .btn{
+        width: 130px;
+        height: 30px;
+        border: transparent;
+        border-radius: 20px;
+        background-color: rgb(252, 252, 24);
+       position: relative;
+       left: 440px;
+       top:30px;
+    }
+    
+    .txt7{
+        font-size: 12px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        position: relative;
+        left: 410px;
+        top:36px;
+    }
+
+    .back{
+        height: 50px;
+        width: 1000px;
+        background-color: #31435a;
+        color: white;
+        position: relative;
+        
+    }
+
+
+    .to{
+        position: relative;
+        left: 495px;
+        top: 20px;
+    }
+
+
+    .ama{
+        height: 142px;
+        width: 1000px;
+         border-top: 1px solid rgb(180, 178, 178);
+         position: relative;
+         bottom: 145px;
+     }
+
+    .last{
+        height: 994px;
+        width: 1000px;
+        background-color: #1d2530;
+    }
+    
+    .firstlast{
+        height: 497px;
+        width: 1000px;
+        background-color: #232f3e;
+        display: flex;
+    }
+
+    .firsttxt{
+        color: #dddddd;
+        font-size: 13px;
+        line-height: 1.8;
+        position: relative;
+        top: 40px;
+        left: 40px;
+    }
+    
+    .get{
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    
+    .secondtxt{
+        color: #dddddd;
+        line-height: 2.4;
+        font-size: 14px;
+        position: relative;
+        top:40px;
+        left: 130px;
+    }
+    
+    .thirdtxt{
+        color: #dddddd;
+        line-height: 1.8;
+        font-size: 14px;
+        position: relative;
+        top:40px;
+        left: 210px;
+    }
+    
+    .fourthtxt{
+        color: #dddddd;
+        line-height: 1.8;
+        font-size: 14px;
+        position: relative;
+        top:40px;
+        left: 290px;
+    }
+
+    .btn1{
+        background-color: transparent;
+        border: 1.5px solid #cccccc;
+        color: white;
+        padding: 9px;
+        padding-left: 19px;
+        padding-right: 19px;
+        position: relative;
+        bottom: 150px;
+        left: -150px;
+    }
+    
+    .btn2{
+        background-color: transparent;
+        border: 1.5px solid #cccccc;
+        color: white;
+        padding: 9px;
+        padding-left: 19px;
+        padding-right: 19px;
+        position: relative;
+        bottom: 150px;
+        left: -140px;
+    }
+    
+    .btn3{
+        background-color: transparent;
+        border: 1.5px solid #cccccc;
+        color: white;
+        padding: 9px;
+        padding-left: 19px;
+        padding-right: 19px;
+        position: relative;
+        bottom: 150px;
+        left: -130px;
+    }
+    
+    .zon{
+        height: 150px;
+        background-image: url("amazon image.png");
+        background-repeat: no-repeat;
+        position: relative;
+        right: 390px;
+        bottom: 80px;
+    
+    }
+
+    .one{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 30px;
+    }
+    
+    .two{
+        font-size: 9px;
+        color: #dddddd;
+        font-weight: bold;
+    }
+    
+    .three{
+        font-size: 10px;
+        color: #999999;
+        
+    }
+    
+    .twos{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 170px;
+    }
+    
+    .threes{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 310px;
+    }
+    
+    .four{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 430px;
+    }
+    
+    .five{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 560px;
+    }
+    
+    .six{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 690px;
+    }
+    
+    .seaven{
+        height: 20px;
+        width: 10px;
+        position: relative;
+        bottom: 100px;
+        left: 800px;
+    }
+    
+    
+    .con1{
+        font-size: 12px;
+        color: #dddddd;
+        font-weight: bold;
+        position: relative;
+        top: 220px;
+        left: 210px;
+    }
+    
+    .con2{
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        position: relative;
+        top: 230px;
+        left: 370px;
+    }
+
+    }
+
+    /* For small mobile */
+    
+    @media(min-width: 320px) and (max-width: 374px){
+
+        .navbar{
+            height: 60px;
+            width: 850px;
+            background-color: #0f1111;
+            color: white;
+            display: flex;
+            
+        }
+    
+        .navbar2{
+            height: 39px;
+            width: 850px;
+            background-color: #0f1111;
+            opacity: 0.7;
+            display: flex;
+            color: white;
+        }
+        .navlogo{
+            height: 30px;
+            width: 80px;
+            align-self: center;
+            position: relative;
+            bottom: 1px;
+        }
+        
+        .logo{
+            background-image: url("amazon image.png");
+            background-size: cover;
+            height: 40px;
+            width: 100%;
+            position: relative;
+            right: 3px;
+            bottom: 13px;
+        
+        }
+        
+        .location{
+            height: 30px;
+            width: 80px;
+            align-self: center;
+            position: relative;
+            bottom: 9px;
+            right: 3px;
+        }
+        .dire{
+            height: 1px;
+            position: relative;
+            bottom: 12px;
+        }
+        .direction{
+            height: 3px;
+           
+        }
+        
+        .deleiver{
+            position: relative;
+            bottom: 18px;
+            left: 21px;
+            color: #cccccc;
+            font-size: 9px;
+        }
+        
+        .pakistan{
+            position: relative;
+            bottom: 18px;
+            left: 21px;
+            font-size: 11px;
+        }
+        .border{
+            border: 1px solid transparent;
+            border-radius: 5px;
+        }
+        
+        .border:hover{
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        
+        .serach{
+            height: 45px;
+            width: 440px;
+           
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            position: relative;
+            top:10px;
+            right: 12px;
+        }
+        
+        .all{
+            height: 50%;
+            width: 30px;
+            background-color: #e6e6e6;
+            color: #545757;
+            font-size: 8px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        
+        .searchbar{
+            height: 39%;
+            width: 70%;
+            font-size: 12px;
+        }
+        
+        .serachlogo{
+            background-color: rgb(199, 159, 48);
+            padding: 3px 6px 15px 6px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            height: 5px;
+        }
+        
+        .flaglogo{
+            height: 15px;
+            width: 19px;
+            background-color: white;
+            background-image: url("flag.png");
+            background-size: cover;
+            position: relative;
+            top: 8px;
+            left: 6px
+        }
+        
+        .flag{
+            height: 30px;
+            width: 80px;
+            margin-top: 4.5px  ;
+            margin-left: 1px;
+            position: relative;
+            right: 21px;
+            bottom: -10px;
+        }
+        
+        .language{
+            color: white;
+            background-color: #0f1111;
+            border: none;
+            position: relative;
+            left: 29px;
+            top:-10px; 
+            font-size: 9px;
+        }
+        
+        .hello{
+        height: 30px;
+        width: 131.53px;
+        margin-top: 4px;
+        margin-left: 15px;
+        position: relative;
+        right: 33px;
+        top: 10px;
+        }
+        
+        .sign{
+            font-size: 8px;
+            color: #cccccc;
+            position: relative;
+            top:5px;
+            left: 15px;
+        }
+        
+        .account{
+            background-color: #0f1111;
+            border: none;
+            color: white;
+            font-size: 11.5px;
+            position: relative;
+            top: 2px;
+            left: 10px;
+        }
+        
+        .ord{
+            height: 30px;
+        width: 88px;
+        margin-top: 4px;
+        margin-left: 15px;
+        position: relative;
+        right: 33px;
+        top:10px;
+        
+        }
+        .returns{
+            font-size: 8px;
+            color: #cccccc;
+            position: relative;
+            left: 15px;
+            top: 5px;
+        }
+        
+        .order{
+            background-color: #0f1111;
+            border: none;
+            color: white;
+            font-size: 11.5px;
+            position: relative;
+            top: 2px;
+            left:10px;
+        }
+        
+        .cart{
+            height: 30px;
+            width: 84px;
+            margin-top: 4px;
+            margin-left: 15px;
+            position: relative;
+            right: 33px;
+            top: 10px;
+        }
+        
+        .cartlogo{
+         position: relative;
+         top: 8px;
+         left: 8px;
+        }
+        
+        .cr{
+            font-size: 10.5px;
+            font-weight: bolder;
+            position: relative;
+            left: 29px;
+            top: -5.9px;
+        }
+        
+    
+        .img{
+            height: 360px;
+            width: 850px;
+            background-image: url("https://m.media-amazon.com/images/I/7130x7c9NmL._SX3000_.jpg");
+            background-size: cover;
+            
+        }
+    
+        /* Row 1 */
+        .row1{
+            width: 800px;
+            display: flex;
+            position: relative;
+            bottom: 10px;
+            right: 60px;
+           }
+           
+           .div1{
+               height: 350px;
+               width: 2000px;
+               background-color: rgb(255, 255, 255);
+               position: relative;
+               bottom: 190px;
+               left: 70px;
+               margin: 0px 0px 0px 0px;
+           }
+           
+           .txt1{
+               color: black;
+               font-weight:bold;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               font-size: 16px;
+               position: relative;
+               top:20px;
+               left:19px;
+           }
+           
+           .img1{
+               height: 80px;
+               width: 110px;
+               background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg");
+               background-size: cover;
+               position: relative;
+               top:47px;
+               right: 0px;
+           }
+           
+           .txt2{
+               color: black;
+               opacity: 0.7;
+               font-size: 9px;
+               position: relative;
+               top: 60px;
+               left: 34px;
+           }
+           
+           .img2{
+               height: 70px;
+               width: 100px;
+               background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg");
+               background-size: cover;
+               position: relative;
+               left: 130px;
+               bottom: 35px;
+               border: none;
+           }
+           
+           .txt3{
+           color: black;
+           opacity: 0.7;
+           font-size: 9px;
+           position: relative;
+           left: 130px;
+           bottom: 20px;
+           }
+           
+           .img3{
+               height: 80px;
+               width: 100px;
+           background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg");
+           background-size: cover;
+           position: relative;
+           top: 29px;
+           }
+           
+           .txt4{
+               color: black;
+               opacity: 0.7;
+               font-size: 9px;
+               position: relative;
+               top: 35px;
+               left: 20px;
+           
+           }
+           
+           .img4{
+               height: 80px;
+               width: 100px;
+               background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg");
+               background-size: cover;
+                position: relative;
+                left: 130px;
+                bottom: 55px;
+           }
+           
+           .txt5{
+               color: black;
+               opacity: 0.7;
+               font-size: 9px;
+               position: relative;
+               left: 150px;
+               bottom: 55px;
+           }
+           
+           .div2{
+               height: 350px;
+               width: 2000px;
+               margin: 0px 0px 0px 0px;
+               background-color: rgb(255, 255, 255);
+               position: relative;
+               bottom: 190px;
+               left: 80px;
+           }
+           
+           .div3{
+               height: 350px;
+               width: 2000px;
+               margin: 0px 0px 0px 0px;
+               background-color: rgb(255, 255, 255);
+               position: relative;
+               bottom: 190px;
+               left: 90px;
+           }
+           
+           .imgs1{
+            height: 80px;
+               width: 100px;
+               position: relative;
+               top:0px;
+               left:16px;
+           }
+           
+           .imgs2{
+            height: 80px;
+               width: 100px;
+               position: relative;
+               bottom: 3px;
+           }
+    
+           .imgs3{
+            height: 80px;
+            width: 100px;
+            position: relative;
+            left: 15.5px;
+           }
+    
+           .imgs4{
+            height: 80px;
+            width: 100px;
+            position: relative;
+            bottom: 4.5px;
+           }
+    
+           .imgs5{
+            height: 80px;
+               width: 100px;
+               position: relative;
+               top:0px;
+               left:16px;
+           }
+    
+           .imgs6{
+            height: 80px;
+               width: 100px;
+               position: relative;
+               bottom: 3px;
+           }
+    
+           .imgs7{
+            height: 80px;
+            width: 100px;
+            position: relative;
+            left: 15.5px;
+           }
+    
+           .imgs8{
+            height: 80px;
+            width: 100px;
+            position: relative;
+            bottom: 4.5px;
+           }
+    
+           .row2{
+            display: flex;
+            width: 800px;
+          position: relative;
+          right: 60px;
+           bottom: 15px;
+        }
+           .div4{
+            height: 400px;
+            width: 500px;
+            background-color: rgb(255, 255, 255);
+            position: relative;
+            bottom: 160px;
+            left: 70px;
+        }
+    
+        .imgs9{
+            height: 80px;
+            width: 100px;
+            position: relative;
+            top:0px;
+            left:16px;
+        }
+    
+        .imgs10{
+            height: 80px;
+               width: 100px;
+               position: relative;
+               bottom: 3px;
+        }
+    
+        .imgs11{
+            height: 80px;
+            width: 100px;
+            position: relative;
+            left: 15.5px;
+        }
+    
+        .imgs12{
+            height: 80px;
+            width: 100px;
+            position: relative;
+            bottom: 4.5px;
+        }
+        
+        .div5{
+            height: 400px;
+            width: 500px;
+            background-color: rgb(255, 255, 255);
+            position: relative;
+            bottom: 160px;
+            left: 80px;
+        }
+        
+        .imgs13{
+            height: 80px;
+            width: 100px;
+            position: relative;
+            top:0px;
+            left:16px;
+        }
+    
+        .imgs14{
+            height: 80px;
+               width: 100px;
+               position: relative;
+               bottom: 3px;
+        }
+    
+        .imgs15{
+            height: 80px;
+            width: 100px;
+            position: relative;
+            left: 15.5px;
+        }
+    
+        .imgs16{
+            height: 80px;
+            width: 100px;
+            position: relative;
+            bottom: 4.5px;
+        }
+    
+        .div6{
+            height: 400px;
+            width: 500px;
+            background-color:rgb(255, 255, 255);
+            position: relative;
+            bottom: 160px;
+            left: 90px;
+        }
+    
+    
+        /* middle */
+    
+        .end{
+            height: 300px;
+            width: 850px;
+            background-color: white;
+            position: relative;
+            bottom: 100px;
+        }
+        
+        .under{
+            height: 110px;
+            border-top: 1px solid rgb(209, 208, 208);
+            border-bottom: 1px solid rgb(209, 208, 208);
+            position:relative;
+            top: 90px;
+        }
+        .txt6{
+            font-size: 19px;
+            font-weight: bolder;
+            position: relative;
+            left: 270px;
+            top: 25px;
+        
+        }
+        
+        .btn{
+            width: 130px;
+            height: 30px;
+            border: transparent;
+            border-radius: 20px;
+            background-color: rgb(252, 252, 24);
+           position: relative;
+           left: 350px;
+           top:30px;
+        }
+        
+        .txt7{
+            font-size: 12px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            position: relative;
+            left: 330px;
+            top:36px;
+        }
+    
+        .back{
+            height: 50px;
+            width: 850px;
+            background-color: #31435a;
+            color: white;
+            position: relative;
+            
+        }
+    
+    
+        .to{
+            position: relative;
+            left: 400px;
+            top: 20px;
+        }
+    
+    
+        .ama{
+            height: 142px;
+            width: 1000px;
+             border-top: 1px solid rgb(180, 178, 178);
+             position: relative;
+             bottom: 145px;
+         }
+    
+        .last{
+            height: 994px;
+            width: 850px;
+            background-color: #1d2530;
+        }
+        
+        .firstlast{
+            height: 497px;
+            width: 850px;
+            background-color: #232f3e;
+            display: flex;
+        }
+    
+        .firsttxt{
+            color: #dddddd;
+            font-size: 12px;
+            line-height: 1.8;
+            position: relative;
+            top: 40px;
+            left: 30px;
+        }
+        
+        .get{
+            font-size: 14px;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        
+        .secondtxt{
+            color: #dddddd;
+            line-height: 2.4;
+            font-size: 14px;
+            position: relative;
+            top:40px;
+            left: 100px;
+        }
+        
+        .thirdtxt{
+            color: #dddddd;
+            line-height: 1.8;
+            font-size: 14px;
+            position: relative;
+            top:40px;
+            left: 170px;
+        }
+        
+        .fourthtxt{
+            color: #dddddd;
+            line-height: 1.8;
+            font-size: 14px;
+            position: relative;
+            top:40px;
+            left: 240px;
+        }
+    
+        .btn1{
+            background-color: transparent;
+            border: 1.5px solid #cccccc;
+            color: white;
+            padding: 9px;
+            padding-left: 19px;
+            padding-right: 19px;
+            position: relative;
+            bottom: 150px;
+            left: -150px;
+        }
+        
+        .btn2{
+            background-color: transparent;
+            border: 1.5px solid #cccccc;
+            color: white;
+            padding: 9px;
+            padding-left: 19px;
+            padding-right: 19px;
+            position: relative;
+            bottom: 150px;
+            left: -140px;
+        }
+        
+        .btn3{
+            background-color: transparent;
+            border: 1.5px solid #cccccc;
+            color: white;
+            padding: 9px;
+            padding-left: 19px;
+            padding-right: 19px;
+            position: relative;
+            bottom: 150px;
+            left: -130px;
+        }
+        
+        .zon{
+            height: 150px;
+            background-image: url("amazon image.png");
+            background-repeat: no-repeat;
+            position: relative;
+            right: 390px;
+            bottom: 80px;
+        
+        }
+    
+        .one{
+            height: 20px;
+            width: 10px;
+            position: relative;
+            bottom: 100px;
+            left: 30px;
+        }
+        
+        .two{
+            font-size: 9px;
+            color: #dddddd;
+            font-weight: bold;
+        }
+        
+        .three{
+            font-size: 10px;
+            color: #999999;
+            
+        }
+        
+        .twos{
+            height: 20px;
+            width: 10px;
+            position: relative;
+            bottom: 100px;
+            left: 130px;
+        }
+        
+        .threes{
+            height: 20px;
+            width: 10px;
+            position: relative;
+            bottom: 100px;
+            left: 250px;
+        }
+        
+        .four{
+            height: 20px;
+            width: 10px;
+            position: relative;
+            bottom: 100px;
+            left: 360px;
+        }
+        
+        .five{
+            height: 20px;
+            width: 10px;
+            position: relative;
+            bottom: 100px;
+            left: 480px;
+        }
+        
+        .six{
+            height: 20px;
+            width: 10px;
+            position: relative;
+            bottom: 100px;
+            left: 600px;
+        }
+        
+        .seaven{
+            height: 20px;
+            width: 10px;
+            position: relative;
+            bottom: 100px;
+            left: 690px;
+        }
+        
+        
+        .con1{
+            font-size: 12px;
+            color: #dddddd;
+            font-weight: bold;
+            position: relative;
+            top: 220px;
+            left: 150px;
+        }
+        
+        .con2{
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+            position: relative;
+            top: 230px;
+            left: 300px;
+        }
+    
+        }
